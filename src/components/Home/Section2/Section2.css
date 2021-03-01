@@ -1,0 +1,25 @@
+.Section2-grid-container{
+    display:grid;
+    width: 1000px;
+    margin: 15px auto;
+    grid-template-columns: 5% 45% 5% 45%;
+    grid-template-rows: auto;
+    
+}
+
+.Section2-grid-container div {
+  margin: auto 0;
+  
+}
+
+.Section2-grid-container div p {
+    word-break: break-all;
+}
+
+.checkmark {
+    color: green;
+}
+
+.grid4 {
+    justify-self: start;
+}

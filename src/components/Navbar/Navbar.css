@@ -1,0 +1,19 @@
+* {box-sizing: border-box;}
+.Nav {
+    height: 50px;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+}
+
+.Nav-Logo{
+    display: inline-block;
+    text-align: center;
+    width: 5%;
+    height: 100%;
+    line-height: 50px;
+    font-family: 'Hanalei', cursive;
+    font-family: 'Teko', sans-serif;
+    font-size: 40px;
+    color: orange;
+}
+
