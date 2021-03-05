@@ -1,0 +1,51 @@
+.model-selection {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+   
+}
+
+.dcf-button {
+    height:150px;
+    width: 300px;
+    font-size: 20px;
+    background-color: white;
+    border: 1px solid black;
+    margin: 0 15px;
+}
+
+.dcf-link {
+    text-decoration: none;
+    color: green;
+}
+
+.dcf-link:hover,
+.dcf-link:active {
+    color:white;
+    background-color: green;
+}
+
+.dd-button {
+    height:150px;
+    width: 300px;
+    font-size: 20px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.dd-link {
+    text-decoration: none;
+    color: green;
+}
+
+.dd-link:hover,
+.dd-link:active {
+    color:white;
+    background-color: green;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

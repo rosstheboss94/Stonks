@@ -1,11 +1,15 @@
 *{box-sizing: border-box;}
 
 .newspanel{
-   display: inline-block;
-   height: 300px;
-   width: 300px;
+   display: flex;
+   flex-direction: column;
+   justify-content:space-between;
+   align-items:center;
+   height: 200px;
+   width: 200px;
    border: 3px solid black;
    margin: auto 10px;
+   background-color: white;
 }
 
 .newspanel img {

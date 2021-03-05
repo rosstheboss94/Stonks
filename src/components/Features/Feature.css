@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+.features-background {
+    display: flex;
+    flex-direction: column;
+    height: 35vh;
+    border-top: 2px solid rgba(0, 0, 0, 0.5);
+    border-bottom: 2px solid rgb(0, 0, 0, 0.5);
+}
+
+.features-title {
+    color: white;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 3px;
+    margin-top: .5rem;
+}
+
+.features-subtitle {
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.features {
+display: flex;
+justify-content: center;
+align-items: center;
+width: 100%;
+height: 100%;
+}
+
+.feature {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 20%;
+    height: 100px;
+    margin: 1rem;
+    background-color: inherit;
+    box-shadow: 2px 2px 4px 4px rgb(255, 255, 255, 0.8);
+}
+
+.feature:hover {
+    cursor: pointer;
+}
+
+.feature button {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(60, 60, 60);
+    border: none;
+    cursor: pointer;
+}
+
+.feature svg {
+    height: 2rem;
+    width: 2rem;
+    margin-top: 1rem;
+    color: rgb(32, 233, 14);
+    
+}
+
+.feature p {
+    font-family: 'DotGothic16', sans-serif;
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: bold;
+    letter-spacing: .1rem;
+    color:white
+}

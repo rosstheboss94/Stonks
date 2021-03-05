@@ -1,14 +1,15 @@
 * {box-sizing: border-box;}
 .Nav {
-    height: 50px;
+    display: flex;
+    align-items: center;
+    height: 5vh;
     border-top: 1px solid lightgray;
     border-bottom: 1px solid lightgray;
 }
 
+
 .Nav-Logo{
-    display: inline-block;
-    text-align: center;
-    width: 5%;
+    width: 100%;
     height: 100%;
     line-height: 50px;
     font-family: 'Hanalei', cursive;
@@ -16,4 +17,52 @@
     font-size: 40px;
     color: orange;
 }
+
+.dropdown-menu {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    height:100%;
+    margin: 0 10px;
+    
+}
+
+.dropdown-arrow  {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items:flex-end;
+    position: relative;
+    top: 110px;
+    height: 200px;
+    width: 150px;
+    margin-bottom: 5px;
+}
+
+.dropdown-content {
+    display: none;
+    width: 100%;
+    background-color: white;
+}
+
+.dropdown-arrow:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-profile-pic {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    height: 100%;
+}
+
+.profile-pic {
+    width: 35px;
+    height: 80%;
+    border-radius: 10%;
+}
+
+
 
